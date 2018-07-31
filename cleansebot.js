@@ -21,5 +21,5 @@ bot.on('guildMemberAdd', member => {
 });
 
 bot.on('guildMemberRemove', member => {
-    member.guild.channels.find("id", '398691402139172864').send(member.user.username + ' has left the server');
+    member.guild.channels.find("id", '413609953077624832').send(member.user.username + ' has left the server');
 });
