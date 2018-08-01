@@ -3,8 +3,12 @@
   "version": "2.0.0",
   "description": "Welcome Channel Bot",
   "main": "cleansebot.js",
+  "scripts": {
+    "start": "node cleansebot.js"
+  },
   "author": "BlastNShock",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "request": "2.87.0"
   }
 }
