@@ -1,0 +1,10 @@
+{
+  "name": "Cleanse Bot",
+  "version": "2.0.0",
+  "description": "Welcome Channel Bot",
+  "main": "cleansebot.js",
+  "author": "BlastNShock",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
