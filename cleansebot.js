@@ -6,6 +6,10 @@ const bot = new Discord.Client();
 
 bot.login(process.env.BOT_TOKEN);
 
+bot.on('ready', () => {
+	console.log('ready');
+});
+
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
 	member.guild.channels.find("id", '398691402139172864').send('Hi <@!' + member.user.id + ">");
