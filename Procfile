@@ -1,1 +1,1 @@
-worker: node cleansebot.js 
+worker: node bot.js
