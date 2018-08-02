@@ -4,7 +4,9 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
-    client.user.setActivity('https://git.io/d.js-heroku', {type: 'WATCHING'});
+
+    console.log('I am ready!');
+
 });
 
 // Create an event listener for new guild members
