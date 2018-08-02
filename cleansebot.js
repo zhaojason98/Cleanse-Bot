@@ -1,12 +1,9 @@
 const Discord = require('discord.js');
 
-
 // Initialize Discord Bot
 const bot = new Discord.Client();
 
-bot.login(
-	cwsakCTOBB-YMi0IZY2_zZb1bYZulVNf);
-
+bot.login("NDczOTQzODc0MDU0NzgyOTc2.DkJXjg.XW3GMft0leLrvP6WZOjAD80ceJs");
 
 // Create an event listener for new guild members
 bot.on('guildMemberAdd', member => {
