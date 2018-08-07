@@ -24,7 +24,11 @@ bot.on('guildMemberAdd', member => {
 });
 
 bot.on('guildMemberRemove', member => {
-    member.guild.channels.find("id", '413609953077624832').send( member.toString() + ' (' + member.user.username + '/' + member.nickname + ') has left the server');
+	if (member.nickname) {
+   		member.guild.channels.find("id", '413609953077624832').send( member.toString() + ' (' + member.user.username + '/' + member.nickname + ') has left the server');
+	} else {
+		member.guild.channels.find("id", '413609953077624832').send( member.toString() + ' (' + member.user.username + ') has left the server');
+	}
 });
 
 bot.login(process.env.BOT_TOKEN);
