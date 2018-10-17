@@ -17,7 +17,7 @@ bot.on('guildMemberAdd', member => {
 			color: 3447003,
 			fields: [{
 				name: "Welcome to **Cleanse**!",
-				value: "Please tag one of the Mistress or Royalty members with your in-game name using the **@** symbol to receive access!"
+				value: "Please tag one of the Mistress or Royalty members your IGN information and which MapleStory game you came from! Cleanse is a guild in MS1 & 2 so please be careful who you ping!"
 			}],
 		}
 	}); 
