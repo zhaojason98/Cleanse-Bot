@@ -17,7 +17,7 @@ bot.on('guildMemberAdd', member => {
 			color: 3447003,
 			fields: [{
 				name: "Welcome to **Cleanse**!",
-				value: "Please tag one of the Mistress or Royalty members your IGN information!"
+				value: "Please tag one of the Mistress or Royalty members with your in-game name using the **@** symbol to receive access!"
 			}],
 		}
 	}); 
