@@ -25,9 +25,9 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('guildMemberRemove', member => {
 	if (member.nickname) {
-   		member.guild.channels.find("id", '510678048534691851').send( member.toString() + ' (' + member.user.username + '/' + member.nickname + ') has left the server');
+   		member.guild.channels.find("id", '510680059271577610').send( member.toString() + ' (' + member.user.username + '/' + member.nickname + ') has left the server');
 	} else {
-		member.guild.channels.find("id", '510678048534691851').send( member.toString() + ' (' + member.user.username + ') has left the server');
+		member.guild.channels.find("id", '510680059271577610').send( member.toString() + ' (' + member.user.username + ') has left the server');
 	}
 });
 
